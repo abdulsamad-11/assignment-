@@ -1,0 +1,15 @@
+var a ;
+document.write("Value of variable after declaration is undefined ??");
+a = 5;
+document.write("<br> Initialize the value of variable: " +a);
+document.write("<br>Increment the variable: " + ++a);
+b = 7;
+document.write("<br>Add " + 7 + " to the variable.");
+var c = a+b;
+document.write("<br>Values after addition is:  " + (c));
+document.write("<br>Decrement the variable.");
+var d = --c;
+document.write("<br>Value after decrement is: " + d);
+document.write("<br>Dividing by " +3);
+var e = (d/3);
+document.write("<br>Output : The remainder is :" +0);
