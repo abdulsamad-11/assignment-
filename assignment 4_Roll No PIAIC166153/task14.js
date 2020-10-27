@@ -1,6 +1,16 @@
+
+
 var date = new Date();
-document.write(date + "<br>");
+document.write("Current date : " + date + "<br>");
 var extractHour = date.getHours();
-document.write(extractHour + "<br>");
 var hourset = date.setHours(extractHour-1);
-document.write(date);
+document.write("One hour ago, it was " + date);
+
+
+
+
+
+
+
+
+
